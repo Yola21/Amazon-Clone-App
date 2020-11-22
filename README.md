@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+<h1 align="center">
+   📺 <a href=""> Netflix Clone </a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    This is Netflix Clone with only frontend. You can feel it like original (and may even better than original😜). I have added every effect possible on Frontend.
+</h3>
 
-## Available Scripts
+<h4 align="center"> 
+	 Status: Finished
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#screenshots">Screenshots</a> • 
+ <a href="#how-it-works">How it works</a> • 
+ <a href="#tech-stack">Tech Stack</a> 
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📺 Netflix Clone - is a Netflix clone app with only Frontend as of now. 
+---
 
-### `yarn test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - [x] Clone of Netflix
+   - [x] posters and thumnails of movies same as that of in original Netflix app
+   - [x] nice and smooth hover effects and scroll over posters and thumbnails of movies
+   - [x] trailer pop-ups for movies whose trailer is available
+   - [x] random poster of movie in header
+---
 
-### `yarn build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img alt="cases" src="https://github.com/Yola21/Netflix-Clone/blob/main/Screenshots/Screenshot%20(241).png">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How it works
 
-### `yarn eject`
+This project have only two parts:
+1. Frontend
+2. Hosting
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+It will need an account in Google to connect it to the Firebase for hosting.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pre-requisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Running the web application
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Clone this repository
+$ git clone https://github.com/Yola21/Netflix-Clone.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Go to your local repository:
+$ cd [local repository]
 
-### Code Splitting
+# Check package.json file and ensure scripts are notated as below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+$ "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  
+# Delete the node_modules folder and any 'lock' files such as 
+yarn.lock or package-lock.json (if present).
 
-### Analyzing the Bundle Size
+# Install dependencies
+$ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Run the application
+$ npm start
 
-### Making a Progressive Web App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The following tools were used in the construction of the project:
 
-### Deployment
+#### **Website**  ([React](https://reactjs.org/))
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React-YouTube](https://www.npmjs.com/package/react-youtube)**
+-   **[Movie-Trailer](https://www.npmjs.com/package/movie-trailer)**
+-   **[Firebase](https://firebase.google.com/)**
 
-### `yarn build` fails to minify
+> See the file  [package.json](https://github.com/Yola21/Netflix-Clone/blob/main/package.json)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### **Utilities**
+
+-   API:  **[TMDB](https://www.themoviedb.org/)**  
+-   API:  **[Axios](https://www.npmjs.com/package/axios)**
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
+
+---
+
+<h3 align="center"><b>Developed with :heart: by <a href="https://github.com/Yola21">Yash</a></b></h1>
