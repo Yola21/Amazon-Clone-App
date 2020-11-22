@@ -21,7 +21,7 @@
 
 ## About
 
-📺 Amazon Clone - is a Amazon clone app with functinalities such as User Authentication, Add/Remove items to/from Cart. 
+🛒 Amazon Clone - is a Amazon clone app with functinalities such as User Authentication, Add/Remove items to/from Cart. 
 ---
 
 ## Features
