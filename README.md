@@ -1,9 +1,9 @@
 <h1 align="center">
-   📺 <a href=""> Netflix Clone </a>
+   🛒 <a href=""> Amazon Clone </a>
 </h1>
 
 <h3 align="center">
-    This is Netflix Clone with only frontend. You can feel it like original (and may even better than original😜). I have added every effect possible on Frontend.
+    Made Amazon clone App which has a clean UI effects and functionalities such as User Authentication, Add items to Cart and Remove items from Cart with total items and price's     subtotal.
 </h3>
 
 <h4 align="center"> 
@@ -21,33 +21,45 @@
 
 ## About
 
-📺 Netflix Clone - is a Netflix clone app with only Frontend as of now. 
+📺 Amazon Clone - is a Amazon clone app with functinalities such as User Authentication, Add/Remove items to/from Cart. 
 ---
 
 ## Features
 
-   - [x] Clone of Netflix
-   - [x] posters and thumnails of movies same as that of in original Netflix app
-   - [x] nice and smooth hover effects and scroll over posters and thumbnails of movies
-   - [x] trailer pop-ups for movies whose trailer is available
-   - [x] random poster of movie in header
+   - [x] Clone of Amazon
+   - [x] User Authentication with Firebase
+   - [x] Header same as that of original Amazon site
+   - [x] Nice and smooth Banner same as that of original Amazon site
+   - [x] Add and Remove items to/from Cart
+   - [x] Display total items in Cart and it's total price 
 ---
 
 ## Screenshots
 
 <p align="center">
-  <img alt="cases" src="https://github.com/Yola21/Netflix-Clone/blob/main/Screenshots/Screenshot%20(241).png">
+  <img alt="cases" src="https://github.com/Yola21/Amazon-Clone-App/blob/main/Screenshots/Screenshot%20(250).png">
 </p>
 
+<p align="center">
+  <img alt="cases" src="https://github.com/Yola21/Amazon-Clone-App/blob/main/Screenshots/Screenshot%20(251).png">
+</p>
+
+<p align="center">
+  <img alt="cases" src="https://github.com/Yola21/Amazon-Clone-App/blob/main/Screenshots/Screenshot%20(252).png">
+</p>
+
+<p align="center">
+  <img alt="cases" src="https://github.com/Yola21/Amazon-Clone-App/blob/main/Screenshots/Screenshot%20(253).png">
+</p>
 ---
 
 ## How it works
 
-This project have only two parts:
+This project have two parts:
 1. Frontend
 2. Hosting
 
-It will need an account in Google to connect it to the Firebase for hosting.
+It will need an account in Google to connect it to the Firebase for hosting and User Authentication.
 
 ### Pre-requisites
 
@@ -60,7 +72,7 @@ In addition, it is good to have an editor to work with the code like [VSCode] (h
 ```bash
 
 # Clone this repository
-$ git clone https://github.com/Yola21/Netflix-Clone.git
+$ git clone https://github.com/Yola21/Amazon-Clone-App.git
 
 # Go to your local repository:
 $ cd [local repository]
@@ -94,16 +106,14 @@ The following tools were used in the construction of the project:
 #### **Website**  ([React](https://reactjs.org/))
 
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[React-YouTube](https://www.npmjs.com/package/react-youtube)**
--   **[Movie-Trailer](https://www.npmjs.com/package/movie-trailer)**
+-   **[React-Context-API](https://reactjs.org/docs/context.html)**
+-   **[Material UI](https://material-ui.com/)**
 -   **[Firebase](https://firebase.google.com/)**
 
 > See the file  [package.json](https://github.com/Yola21/Netflix-Clone/blob/main/package.json)
 
 #### **Utilities**
 
--   API:  **[TMDB](https://www.themoviedb.org/)**  
--   API:  **[Axios](https://www.npmjs.com/package/axios)**
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
 
 ---
