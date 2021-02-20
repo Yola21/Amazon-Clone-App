@@ -111,7 +111,7 @@ The following tools were used in the construction of the project:
 -   **[Material UI](https://material-ui.com/)**
 -   **[Firebase](https://firebase.google.com/)**
 
-> See the file  [package.json](https://github.com/Yola21/Netflix-Clone/blob/main/package.json)
+> See the file  [package.json](https://github.com/Yola21/Amazon-Clone-App/blob/main/package.json)
 
 #### **Utilities**
 
